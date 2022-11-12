@@ -171,6 +171,28 @@ i.menu-mobile {
     left: 0;
 }
 
+
+section.section-bg-even{
+    background-color: #18191A;
+    color: #E4E6EB;
+}
+
+section#about ul li {
+    background-color: #18191A;
+    color: #E4E6EB;
+    border-bottom: .6px solid #6f7180;
+}
+
+section.section-bg-odd {
+    background-color: #1c1e21;
+    color: #E4E6EB;
+}
+
+.progress-bar {
+   background-color: #9179FA;
+}
+
+
 @media (max-width: 1024px) {
     #header {
         left: -300px;
@@ -202,6 +224,10 @@ i.menu-mobile {
     }
 }
 
+
+
+
+
 *::-webkit-scrollbar {
     width: 10px;
 }
@@ -215,15 +241,6 @@ i.menu-mobile {
 *::-webkit-scrollbar-thumb {
     background-color: #9179FA;
 }
-
-.section-bg {
-    background-color: #f6f4ff;
-}
-
-.progress-bar {
-   background-color: #9179FA;
-}
-
 
 /*
 
