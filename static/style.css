@@ -192,6 +192,48 @@ section.section-bg-odd {
    background-color: #9179FA;
 }
 
+section#resume .resume-title{
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section#resume .resume-item{
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #E4E6EB;
+    position: relative;
+}
+
+section#resume .resume-item h4{
+    color: #E4E6EB;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}
+
+section#resume .resume-item h5{
+    font-size: 18px;
+    font-weight: 600;
+    background: #6f7180;
+    padding: 5px 15px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+section#resume .resume-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -9px;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #E4E6EB;
+    background: #9179FA;
+    border-radius: 50%;
+}
 
 @media (max-width: 1024px) {
     #header {
