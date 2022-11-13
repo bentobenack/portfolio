@@ -235,6 +235,18 @@ section#resume .resume-item::before {
     border-radius: 50%;
 }
 
+
+
+.code-line-numbers {
+    position: absolute;
+    top: 0px;
+    /* left: 20px; */
+    left: 260px;
+    z-index: 9998;
+    width: 40px;
+    color: #46397c;
+}
+
 @media (max-width: 1024px) {
     #header {
         left: -300px;
@@ -263,6 +275,9 @@ section#resume .resume-item::before {
     }
     #main {
         margin-left: 0;
+    }
+    .code-line-numbers {
+        display: none;
     }
 }
 
