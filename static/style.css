@@ -249,14 +249,17 @@ section#resume .resume-item::before {
 
 .carousel-control-prev {
     margin-left: -8rem;
+    filter: invert(100%);
 }
 
 .carousel-control-next {
     margin-right: -8rem;
+    filter: invert(100%);
 }
 
 .carousel-indicators {
     margin-bottom: -35px;
+    filter: invert(100%);
 }
 
 .carousel-cust{
