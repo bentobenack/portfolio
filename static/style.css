@@ -247,6 +247,26 @@ section#resume .resume-item::before {
     color: #46397c;
 }
 
+.carousel-control-prev {
+    margin-left: -8rem;
+}
+
+.carousel-control-next {
+    margin-right: -8rem;
+}
+
+.carousel-indicators {
+    margin-bottom: -35px;
+}
+
+.carousel-cust{
+    color: #46397c;
+}
+
+.carousel-cust h4{
+    color: #9179FA;
+}
+
 @media (max-width: 1024px) {
     #header {
         left: -300px;
@@ -281,7 +301,14 @@ section#resume .resume-item::before {
     }
 }
 
-
+@media (max-width: 1860px) {
+    .carousel-control-prev {
+        margin-left: 0;
+    }
+    .carousel-control-next {
+        margin-right: 0;
+    }
+}
 
 
 
