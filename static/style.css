@@ -242,7 +242,7 @@ section#resume .resume-item::before {
     top: 0px;
     /* left: 20px; */
     left: 260px;
-    z-index: 101;
+    z-index: 102;
     width: 40px;
     color: #46397c;
 }
