@@ -97,7 +97,7 @@ html, body{
 }
 
 section#home {
-    background-image: url(./img/bg.JPG);
+    background-image: url("./img/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
