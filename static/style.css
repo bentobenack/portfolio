@@ -26,7 +26,7 @@ html, body{
     margin: 15px auto;
     display: block;
     width: 120px;
-    border: 6px solid #f6f4ff;
+    border: 6px solid #46397c;
     border-radius: 50%;
 }
 
@@ -274,15 +274,28 @@ section#resume .resume-item::before {
     color: #46397c;
 }
 
-.btn-send-message:hover{
-    background-color: #46397c;
-    color: #fff;
-}
-
 .section-title {
     border-bottom: 3px solid #9179FA;
     padding-bottom: 5px;
     display: inline-block;
+}
+
+.btn-send-message:hover {
+    background-color: #46397c;
+    color: #fff;
+}
+
+#btn-send-loader{
+    background-color: #46397c;
+    color: #fff;
+    display: none;
+}
+
+#alert {
+    position: fixed;
+    z-index: 10;
+    top: 30px;
+    right: 10px;
 }
 
 /* Animation */
@@ -312,6 +325,8 @@ section#resume .resume-item::before {
     opacity: 1;
     transform: translate3d(0, 0, 0);
 }
+
+
 /* Media */
 
 @media (max-width: 1024px) {
@@ -360,8 +375,6 @@ section#resume .resume-item::before {
         transform: translate3d(0, 100%, 0);
     } 
 }
-
-
 
 *::-webkit-scrollbar {
     width: 10px;

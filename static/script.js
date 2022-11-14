@@ -42,3 +42,19 @@ animeScroll();
 window.addEventListener("scroll", () => {
     animeScroll();
 })
+
+// Activar carregamento no botao do formulario
+
+const btnSend = document.querySelector('#btn-send');
+const btnSendLoader = document.querySelector('#btn-send-loader');
+
+btnSend.addEventListener("click", () => {
+    btnSendLoader.style.display = "block";
+    btnSend.style.display = "none";
+})
+
+// Tirar a mensagem depois de umtempo
+
+setTimeout(() => {
+    document.querySelector("#alert").style.display = "none";
+}, 5000)
