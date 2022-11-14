@@ -19,7 +19,7 @@ html, body{
     width: 300px;
     transition: all ease-in-out 0.5s;
     padding: 0 15px;
-    z-index: 9997;
+    z-index: 100;
 }
 
 #header .profile img{
@@ -242,7 +242,7 @@ section#resume .resume-item::before {
     top: 0px;
     /* left: 20px; */
     left: 260px;
-    z-index: 9998;
+    z-index: 101;
     width: 40px;
     color: #46397c;
 }
@@ -297,6 +297,20 @@ section#resume .resume-item::before {
     top: 30px;
     right: 10px;
 }
+
+#footer {
+    padding: 15px;
+    color: #E4E6EB;
+    font-size: 14px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    z-index: 101;
+    background-color: #000;
+    transition: .3s;
+}
+
 
 /* Animation */
 
@@ -360,6 +374,12 @@ section#resume .resume-item::before {
     }
     .code-line-numbers {
         display: none;
+    }
+
+    #footer {
+        position: static;
+        width: auto;
+        padding: 20px 15px;
     }
 }
 
