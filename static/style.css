@@ -270,6 +270,20 @@ section#resume .resume-item::before {
     color: #9179FA;
 }
 
+.contact-info {
+    color: #46397c;
+}
+
+.btn-send-message:hover{
+    background-color: #46397c;
+    color: #fff;
+}
+
+.section-title {
+    border-bottom: 3px solid #9179FA;
+    padding-bottom: 5px;
+    display: inline-block;
+}
 @media (max-width: 1024px) {
     #header {
         left: -300px;
