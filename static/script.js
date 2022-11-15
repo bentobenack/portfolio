@@ -10,14 +10,23 @@ menuMobile.addEventListener('click', () => {
     body.classList.toggle("menu-nav-active");
 });
 
-const navItem = document.querySelectorAll('.nav-item')
+// Ocultar menu-nav on mobile when click on nav-link/menu item and
+// Activar o a opcao do menu quando es clicado, e desactivar os demais
 
-navItem.forEach(item => {
-    item.addEventListener("click", () => {
+const navLink = document.querySelectorAll('.nav-link')
+
+navLink.forEach(link => {
+    link.addEventListener("click", () => {
+
         if (body.classList.contains("menu-nav-active")){
             body.classList.remove("menu-nav-active")
             menuMobile.classList.replace("bi-x", "bi-list")
         }
+
+        navLink.forEach(e => {
+            e.classList.remove("active")
+        })
+        link.classList.add("active")
     })
 });
 
@@ -58,3 +67,5 @@ btnSend.addEventListener("click", () => {
 setTimeout(() => {
     document.querySelector("#alert").style.display = "none";
 }, 5000)
+
+
