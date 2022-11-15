@@ -138,7 +138,7 @@ section#home span#subtitle3{
     /*text-shadow: 4px 4px 10px #9179FA;*/
 }
 
-section#home div#drag {
+section#home div#drag div{
     width: 9rem;
 }
 
