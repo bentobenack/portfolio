@@ -32,7 +32,7 @@ const animeScroll = () => {
         if (windowTop > element.offsetTop) {
             element.classList.add("animate");
         } else {
-            element.classList.remove("animate");
+            // element.classList.remove("animate");
         }
     });
 };
