@@ -369,6 +369,14 @@ section#resume .resume-item::before {
         width: auto;
         padding: 20px 15px;
     }
+
+    .carousel-control-prev {
+        filter: invert(0%);
+    }
+    
+    .carousel-control-next {
+        filter: invert(0%);
+    }
 }
 
 @media (max-width: 1860px) {
